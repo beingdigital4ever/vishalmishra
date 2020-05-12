@@ -1,0 +1,70 @@
+body{margin:2%;
+padding:2%;
+border:0px solid black;
+background-image: linear-gradient(to bottom right,#008A85 ,#FFFFFF)}
+
+header{border:0px solid black;}
+header div{display: inline-block;}
+
+img{height:180px;
+width:100%;
+border-radius: 15px;}
+
+.header{
+	border:0px solid black;
+	padding-top: 0px;
+	width:75%;
+	font-size: 100%;
+	padding-left: 30px;
+	background-image: linear-gradient(to top,#008A85 ,#FFFFFF);
+	border-radius: 10px;
+}
+
+.pic{border:0px solid black;
+width:20%;
+}
+
+.pic:hover{transition-duration: 2s;
+transform: scale(1.2,1.6);}
+
+.qual{width:30%;
+	margin:1%;
+display: inline-block;
+border-radius: 15px;}
+
+.qual:hover{
+	transition-duration: 0.3s;
+	transform:scale(1.1,1.1);
+	box-shadow: 1px 1px 1px 1px #206B68 ;
+	border-radius: 15px;
+}
+
+.tech{width:22%;
+	margin:1%;
+display: inline-block;
+text-align: center;
+border-radius: 15px;}
+
+.tech:hover{
+	transition-duration: 0.3s;
+	transform:scale(1.1,1.1);
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px 1px #206B68 ;
+}
+
+.proj{width:30%;
+	margin:1%;
+display: inline-block;
+border-radius: 15px;
+text-decoration-style: none;
+}
+
+.proj:hover{
+	transition-duration: 0.3s;
+	transform:scale(1.1,1.1);
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px 1px #206B68 ;
+}
+
+
+
